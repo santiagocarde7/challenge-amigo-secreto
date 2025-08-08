@@ -1,11 +1,5 @@
 let amigos = [];
 
-function asignarTextoElemento(elemento, texto){
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
-}
-
 function agregarAmigo(){
 let amigoNuevo = document.querySelector("#amigo").value.trim();
 if(amigoNuevo == ""){
